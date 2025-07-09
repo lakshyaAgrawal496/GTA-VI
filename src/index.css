@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "pricedown";
+  src: url("./pricedown.otf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "pricedown";
+}
+.footer {
+  background: #0e0e0e;
+  color: #ccc;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.footer a {
+  color: #f84c4c;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer-social i {
+  font-size: 1.8rem;
+  margin: 0 10px;
+}
